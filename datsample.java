@@ -4,16 +4,13 @@
 public static void main(String[] args) 
 {
     try {
-
+//hi edit
         String url = "jdbc:mysql://softwareengineering.ccg9pdiausna.us-west-2.rds.amazonaws.com:3306/";
         String userName = "cse360";
         String password = "classproject";
         String dbName = "patientdb";
         String driver = "com.mysql.jdbc.Driver";
         Connection connection = DriverManager.getConnection(url + dbName, userName, password);
-
-        // Do something with the Connection
-
 
     } catch (SQLException ex) {
         // handle any errors
